@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Certificados Regional Educacion 08 Santiago, Jose Walder Silverio Franco</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="favicon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <img src="./logo-minerd-regional-08.png" alt="Logo de la regional de educacion 08">
+        <h1>Generador de Certificado Regional de Educación 08</h1>
+    </header>
+    <main>
+
+        <label for="name">Escribe el nombre completo</label>
+        <input required type="text" name="Name" autocomplete="name" placeholder="escribir aquí" id="name" minlength="5"
+            maxlength="40">
+        <Button id="submitBtn">Generar Certificado</Button>
+
+
+    </main>
+    <script src="https://unpkg.com/pdf-lib@1.4.0"></script>
+    <script src="./FileSaver.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
