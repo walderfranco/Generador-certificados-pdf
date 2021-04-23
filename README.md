@@ -1,9 +1,11 @@
-# Certificate-Generator
-Generate PDF certificate using JavaScript
+# Generador de Certificado Simple
+Un simple generador de certificados hecho con JS. 
 
-This app uses two library PDF-lib.js and FileSaver.js
+Se utilizan 2 librerias: PDF-lib.js y FileServer.js 
 
-![Screenshot](https://i.imgur.com/H7mcyZ3.png)
+# HomePage del generador
+![Sample pdf](https://i.imgur.com/1uI214S.png)
 
-# Certificate Sample
-![Sample pdf](https://i.imgur.com/GFGU3K9.jpg)
+
+# Ejemplo de Certificado generado
+![Sample pdf](https://i.imgur.com/b9gNVRh.png)
